@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import Carousal from './Carousal'
+import Footer from './Footer'
 
 
 
