@@ -48,7 +48,7 @@ function Faq() {
             Frequently Asked Questions...
           </h2>
         </div>
-        <div className="mx-auto mt-8 max-w-3xl space-y-4 md:mt-16">
+        <div className="mx-auto mt-8 max-w-3xl space-y-4 md:mt-9">
           {faqData.map((item, i) => (
             <div
               key={i}

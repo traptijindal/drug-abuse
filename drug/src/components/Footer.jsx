@@ -44,10 +44,7 @@ function  Footer()  {
             </p>
             <ul className="flex flex-col space-y-3 text-[14px] font-medium text-gray-500">
               <li>
-                Ajay Kumar Garg Engineering University (AKGU) offers many
-                under graduate course in  engineering branches, two
-                year post graduate M.Tech course in four engineering branches
-                and two year post graduate MCA course.
+              We believe in fostering a non-judgmental and compassionate environment to encourage open discussions and provide valuable insights. Together, we can make a positive impact and work towards a healthier and drug-free future.
               </li>
             </ul>
           </div>

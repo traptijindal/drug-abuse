@@ -4,6 +4,7 @@ import Carousal from './Carousal'
 import Footer from './Footer'
 import Faq from './FAQ'
 import Cards from './Cards'
+import Content from './Content'
 
 
 
@@ -13,6 +14,7 @@ function Home() {
     <div>
     <Header/>
     <Carousal/>
+    <Content/>
    <Cards/>
     <Faq/>
     <Footer/>
