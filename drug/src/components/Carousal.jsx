@@ -43,16 +43,16 @@ const Carousal = () => {
           modules={[Autoplay, Pagination, Navigation, Mousewheel]}
         >
           <SwiperSlide>
-            <img className=" w-full height" src="https://img.freepik.com/free-photo/sad-man-holding-head-with-hand_1150-6345.jpg?w=996&t=st=1706970366~exp=1706970966~hmac=6d845fe24eb4edbf3d575e6da2a4782d8cdac532df6efb14412c1626104c28c6" alt="" />
+            <img className=" w-full height" src="\images\anti-smoking-and-consumption-and-mental-illness-landscape-.jpg" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className=" w-full height" src="\images\c_2.jpg" alt="" />
+            <img className=" w-full height" src="\images\WhatsApp Image 2024-02-03 at 8.43.59 PM.jpeg" alt="" />
           </SwiperSlide>
           <SwiperSlide>
             <img className=" w-full height" src="\images\c_3.jpg" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className=" w-full height" src="\images\c_5.jpg" alt="" />
+            <img className=" w-full height" src="\images\anti-smoking-and-consumption-and-mental-illness-landscape-dark-theme.jpg" alt="" />
           </SwiperSlide>
           <SwiperSlide>
             <img className=" w-full height" src="\images\c_7.jpg" alt="" />
