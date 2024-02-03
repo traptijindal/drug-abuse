@@ -19,9 +19,6 @@ function App() {
         <Route path="/about" element={<About/>}/>
         <Route path="/mental" element={<Mental/>}/>
         <Route path="/tobacco" element={<Tobaacoo/>}/>
-
-      
-       
       </Routes>
     </Router>
   )
