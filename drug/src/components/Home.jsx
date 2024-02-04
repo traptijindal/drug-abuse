@@ -5,6 +5,7 @@ import Footer from './Footer'
 import Faq from './FAQ'
 import Cards from './Cards'
 import Content from './Content'
+import Acheivements from './Acheivements'
 
 
 
@@ -15,7 +16,9 @@ function Home() {
     <Header/>
     <Carousal/>
     <Content/>
+    
    <Cards/>
+   <Acheivements/>
     <Faq/>
     <Footer/>
     </div>
