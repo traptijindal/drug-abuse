@@ -3,7 +3,7 @@ import React from 'react'
 function Councellor() {
   return (
     <div>
-      Councelor
+      Councellor
     </div>
   )
 }

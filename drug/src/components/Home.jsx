@@ -12,8 +12,12 @@ import Acheivements from './Acheivements'
 
 function Home() {
   return (
-    <div>
-    <Header/>
+    <div style={{ backgroundColor: ' #F2FFE9' }}>
+<button class="fixed bottom-7 right-7 p-2 bg-blue-500 hover:bg-blue-900 text-white rounded-full w-16 h-16 text-3xl">
+    💬 
+</button>
+
+     <Header/>
     <Carousal/>
     <Content/>
     

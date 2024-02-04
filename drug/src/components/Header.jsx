@@ -15,7 +15,7 @@ export default function Header() {
 
       <div className="relative w-full h-16 bg-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2  sm:px-6 lg:px-8">
-          <a href="https://www.akgec.ac.in/" className="flex items-center space-x-3 rtl:space-x-reverse">
+          <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="\images\WhatsApp Image 2024-02-04 at 12.06.58 PM.jpeg" className="h-12" alt="" />
             {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black"></span></a> */}
           </a>
