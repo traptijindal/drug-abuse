@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link } from 'react-router-dom' ;
 
 function Cards() {
   return (
@@ -13,8 +14,9 @@ function Cards() {
           
         <p>Drug addiction, also called substance use disorder, is a disease that affects a person's brain and behavior and leads to an inability to control the use of a legal or illegal drug or medicine.</p>
         </div>
-      
+      <Link to="/drug-abuse">
         <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 mt-7" >Read More</button>
+        </Link>
       </div>
     </div>
   </div>
@@ -28,8 +30,9 @@ function Cards() {
       
           <p>Mental illness, also called mental health disorders, refers to a wide range of mental health conditions — disorders that affect your mood, thinking and behavior.</p>
         </div>
-       
+       <Link to="/mental">
         <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 mt-7">Read More</button>
+        </Link>
       </div>
     </div>
 </div>
@@ -44,8 +47,9 @@ function Cards() {
       
           <p>Tobacco has been around for centuries, but what we know about the health damage from smoking is much newer. </p>
         </div>
-       
+       <Link to="/tobacco">
         <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 mt-12">Read More</button>
+        </Link>
       </div>
     </div>
 </div>
