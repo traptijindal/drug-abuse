@@ -7,7 +7,7 @@ function Mental() {
     <>
       <Header />
       <div style={{ padding: "20px" }}>
-        <h1 className='text-3xl font-bold text-center'>MENTAL ILLNESS</h1>
+        <h1 className='text-3xl sm:text-2xl md:text-4xl font-bold text-center'>MENTAL ILLNESS</h1>
 
         <div className='flex flex-col items-center my-8 sm:flex-row sm:justify-center sm:items-center'>
           <img className='w-full sm:w-1/4 m-8' src="\images\c_1.jpg" alt="" />
