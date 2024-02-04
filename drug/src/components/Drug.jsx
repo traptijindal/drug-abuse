@@ -6,15 +6,22 @@ function Drug() {
   return (
     <>
       <Header />
-      <div style={{ textAlign: "center", padding: "20px" }}>
-        <h1 style={{ fontSize: "3rem", fontWeight: "bold" }}>DRUG ABUSE</h1>
+      <div style={{ padding: "20px" }}>
+        <h1 className='text-3xl font-bold text-center'>DRUG ABUSE</h1>
 
-        <div className='flex my-8'>
+        {/* <div className='flex my-8'>
           <img className='w-1/3 h-96 m-8' src="\images\drug1.jpg" alt="" />
           <p className='w-2/3 h-96 m-8 text-2xl leading-loose'>
             Drug abuse refers to the harmful or excessive use of substances that can lead to physical and psychological dependence, as well as negative consequences for an individual's health, well-being, and social relationships. These substances can include legal prescription medications, over-the-counter drugs, and illegal substances.
           </p>
+        </div> */}
+        <div className='flex flex-col my-8 md:flex-row'>
+          <img className='w-full h-96 md:w-1/3 m-8' src="\images\drug1.jpg" yalt="" />
+          <p className='w-full md:w-2/3 h-96 m-8 text-2xl leading-loose'>
+            Drug abuse refers to the harmful or excessive use of substances that can lead to physical and psychological dependence, as well as negative consequences for an individual's health, well-being, and social relationships. These substances can include legal prescription medications, over-the-counter drugs, and illegal substances.
+          </p>
         </div>
+
 
         <h3 className='text-3xl leading-loose font-semibold uppercase underline'>Commonly abused drugs include</h3>
         <div className='my-8 flex flex-row-reverse justify-center text-center'>
@@ -35,8 +42,8 @@ function Drug() {
               1. Physical Health: Chronic use of drugs can lead to a range of health problems, including organ damage, cardiovascular issues, respiratory problems, and infectious diseases.<br />
               2. Mental Health: Substance abuse can contribute to mental health disorders such as depression, anxiety, paranoia, and psychosis.<br />
               3. Social Consequences: Drug abuse can strain relationships with family and friends, lead to employment issues, and result in legal problems.<br />
-              4. Legal Issues: Drug abuse often involves illegal substances, leading to legal consequences. Legal problems may include arrests, fines, and imprisonment, which can have long-lasting effects on an individual's life.<br/>
-              5. Financial Strain: Maintaining a drug habit can be expensive. The financial strain may lead to issues such as job loss, bankruptcy, or theft to support the addiction. <br/>
+              4. Legal Issues: Drug abuse often involves illegal substances, leading to legal consequences. Legal problems may include arrests, fines, and imprisonment, which can have long-lasting effects on an individual's life.<br />
+              5. Financial Strain: Maintaining a drug habit can be expensive. The financial strain may lead to issues such as job loss, bankruptcy, or theft to support the addiction. <br />
             </span>
           </div>
         </div>
