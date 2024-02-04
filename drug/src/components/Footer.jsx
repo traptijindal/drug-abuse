@@ -29,10 +29,11 @@ function Footer() {
         </div>
         <div className="mt-8 grid grid-cols-2 sm:gap-6 gap-2 md:mt-0 lg:w-3/4 lg:grid-cols-3">
           <div className="mb-8 lg:mb-0">
-            <p className="mb-6 text-lg font-semibold text-gray-700 ">Quick Links</p>
+            <p className="mb-6 text-lg font-semibold text-gray-700 ">Articles</p>
             <ul className="flex flex-col space-y-4 text-[14px] font-medium text-gray-500">
-              <NavLink className='hover:cursor-pointer' to=''>Lorem</NavLink>
-              <NavLink className='hover:cursor-pointer' to=''>Lorem</NavLink>
+              <NavLink className='hover:cursor-pointer' to='/mental-article'>Mental Illness</NavLink>
+              <NavLink className='hover:cursor-pointer' to='/tobacco-article'>Tobacco Control</NavLink>
+              <NavLink className='hover:cursor-pointer' to='/drug-article'>Drug Abuse</NavLink>
             </ul>
           </div>
           <div className="mb-8 lg:mb-0">
@@ -51,7 +52,6 @@ function Footer() {
       <div className="mx-auto max-w-6xl items-center justify-between px-4 md:flex lg:px-0">
         <div className="inline-flex items-center">
           <img src="\images\WhatsApp Image 2024-02-04 at 12.06.58 PM.jpeg" className="h-12" alt="" />
-          {/* <span className="ml-4 text-lg font-bold"></span> */}
         </div>
         <div className="mt-4 md:mt-0">
           <p className="text-sm font-medium text-gray-500">
