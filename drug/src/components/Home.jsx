@@ -15,7 +15,7 @@ function Home() {
   return (
     <div>
       <Link to="https://mediafiles.botpress.cloud/0f4a7564-720b-475b-a00f-17b5e0676fe5/webchat/bot.html">
-<button class="fixed bottom-7 right-7 p-2 bg-blue-500 hover:bg-blue-900 text-white rounded-full w-16 h-16 text-3xl">
+<button className="fixed bottom-7 right-7 p-2 bg-blue-500 hover:bg-blue-900 text-white rounded-full w-16 h-16 text-3xl">
     💬 
 </button>
 </Link>
