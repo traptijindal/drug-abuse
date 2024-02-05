@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header';
 import Footer from './Footer';
+import DrugVideo from './DrugVideo';
 
 function Drug() {
   return (
@@ -9,7 +10,8 @@ function Drug() {
       <div style={{ padding: "20px" }}>
         <h1 className='text-3xl sm:text-2xl md:text-4xl font-bold text-center'>DRUG ABUSE</h1>
         <div className='flex flex-col items-center my-8 sm:flex-row sm:justify-center sm:items-center'>
-          <img className='w-full sm:w-1/4 m-8' src="\images\drug1.jpg" yalt="" />
+          {/* <img className='w-full sm:w-1/4 m-8' src="\images\drug1.jpg" alt="" /> */}
+            <DrugVideo />
           <p className='m-8 text-lg sm:text-base leading-loose'>
             Drug abuse refers to the harmful or excessive use of substances, including legal prescription medications, over-the-counter drugs, and illegal substances, in a way that leads to physical and psychological dependence. It involves the use of these substances in a manner that deviates from prescribed or recommended doses, and it can have detrimental effects on an individual's health, well-being, relationships, and overall life. Drug abuse involves engaging in patterns of substance use that result in negative consequences for the individual. This may include using larger amounts than prescribed, using drugs more frequently, or using them for non-medical purposes.
           </p>

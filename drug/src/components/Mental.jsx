@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from './Footer'
 import Header from './Header'
+import MentalVideo from './MentalVideo'
 
 function Mental() {
   return (
@@ -10,7 +11,8 @@ function Mental() {
         <h1 className='text-3xl sm:text-2xl md:text-4xl font-bold text-center'>MENTAL ILLNESS</h1>
 
         <div className='flex flex-col items-center my-8 sm:flex-row sm:justify-center sm:items-center'>
-          <img className='w-full sm:w-1/4 m-8' src="\images\c_1.jpg" alt="" />
+          {/* <img className='w-full sm:w-1/4 m-8' src="\images\c_1.jpg" alt="" /> */}
+          <MentalVideo/>
           <p className='m-8 text-lg sm:text-base leading-loose'>
             Mental illness, also known as mental health disorders, refers to a wide range of conditions that affect a person's thoughts, emotions, behavior, and overall well-being. Mental illnesses can be mild or severe, temporary or chronic, and they can impact anyone regardless of age, gender, race, or socioeconomic status. Some common types of mental illnesses include depression, anxiety disorders, bipolar disorder, schizophrenia, and eating disorders.
           </p>
