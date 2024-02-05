@@ -58,28 +58,30 @@ function Councellor() {
   return (
     <>
       <Header />
-      <h1 className="text-4xl font-bold text-center m-8">Our Best Counsellor</h1>
-      <div className="w-full flex flex-wrap justify-center mt-12 gap-8 ">
-        {data.map((counselor) => (
-          <div
-            key={counselor.id}
-            className="overflow-hidden flex flex-col md:flex-row md:max-w-[560px] w-full p-4 border border-solid border-black rounded-xl shadow-lg shadow-slate-400 bg-blue-300"
-          >
-            <div className="mb-4 md:mb-0 md:mr-4">
-              <img
-                className="h-[200px] md:w-[300px] object-cover rounded-full mx-auto md:mx-0"
-                src={counselor.image}
-                alt=""
-              />
+      <div className='m-5'>
+        <h1 className="text-5xl font-bold text-center m-8">Our Best Counsellor</h1>
+        <div className="w-full flex flex-wrap justify-center mt-12 gap-8 ">
+          {data.map((counselor) => (
+            <div
+              key={counselor.id}
+              className="overflow-hidden flex flex-col md:flex-row md:max-w-[560px] w-full p-4 border border-solid border-black rounded-xl shadow-lg shadow-slate-400 bg-blue-300"
+            >
+              <div className="mb-4 md:mb-0 md:mr-4">
+                <img
+                  className="h-[200px] md:w-[300px] object-cover rounded-full mx-auto md:mx-0"
+                  src={counselor.image}
+                  alt=""
+                />
+              </div>
+              <div className="p-4">
+                <h3 className="text-xl font-semibold mb-2"> {counselor.name}</h3>
+                <h3 className="text-xl font-semibold mb-2"> {counselor.experience}</h3>
+                <h3 className="text-xl font-semibold mb-2"> {counselor.location}</h3>
+                <h3 className="text-xl font-semibold mb-2"> {counselor.contact}</h3>
+              </div>
             </div>
-            <div className="p-4">
-              <h3 className="text-xl font-semibold mb-2"> {counselor.name}</h3>
-              <h3 className="text-xl font-semibold mb-2"> {counselor.experience}</h3>
-              <h3 className="text-xl font-semibold mb-2"> {counselor.location}</h3>
-              <h3 className="text-xl font-semibold mb-2"> {counselor.contact}</h3>
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
       <Footer />
     </>
