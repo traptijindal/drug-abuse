@@ -25,7 +25,7 @@ const Carousal = () => {
           }}
 
           cssMode={true}
-          sticky={false}
+          sticky={"false"}
           freeMode={{ enable: true }}
           mousewheel={{
             mousewheel: true,

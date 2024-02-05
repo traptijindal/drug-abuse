@@ -21,19 +21,33 @@ export default function Contact() {
             and we'll get back to you ASAP. Your satisfaction is our priority.
             Thanks for connecting with us!
           </p>
-          <Link to="https://forms.gle/N2LvkDTQvVL8jjnT8">
-          <button className='bg-black rounded-sm  text-white p-2 text-lg w-[200px] md:w-full lg:w-[400px] '>
-            Share Your Experience
-          </button>
-          </Link>
+          <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2">
           <Link to="https://docs.google.com/forms/d/e/1FAIpQLSdcuYRvbRkHNfH1A8hbvGLAjXh2W6VkmUAH9D2Pz19cgYRYWg/viewform?usp=sf_link">
-          <button className='bg-black rounded-sm  text-white p-2 text-lg w-[200px] md:w-full lg:w-[400px] '>
-            Join Us
-          </button>
-          </Link>
+    <button className='bg-black rounded-sm text-white p-2 text-lg'>
+      Join Us
+    </button>
+  </Link>
+  <Link to="https://forms.gle/N2LvkDTQvVL8jjnT8">
+    <button className='bg-black rounded-sm text-white p-2 text-lg'>
+      Share Your Experience
+    </button>
+  </Link>
+  
+</div>
+
         </div>
       </div>
       <Footer />
     </div>
   );
 }
+{/* <Link to="https://forms.gle/N2LvkDTQvVL8jjnT8">
+<button className='bg-black rounded-sm  text-white p-2 text-lg w-[200px] md:w-full lg:w-[400px] '>
+  Share Your Experience
+</button>
+</Link>
+<Link to="https://docs.google.com/forms/d/e/1FAIpQLSdcuYRvbRkHNfH1A8hbvGLAjXh2W6VkmUAH9D2Pz19cgYRYWg/viewform?usp=sf_link">
+<button className='bg-black rounded-sm  text-white p-2 text-lg w-[200px] md:w-full lg:w-[400px] '>
+  Join Us
+</button>
+</Link> */}
