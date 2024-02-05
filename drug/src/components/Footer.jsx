@@ -27,7 +27,7 @@ function Footer() {
             </div>
           </form>
         </div>
-        <div className="mt-8 grid grid-cols-2 sm:gap-6 gap-2 md:mt-0 lg:w-3/4 lg:grid-cols-3">
+        <div className="mt-8 grid grid-cols-2 sm:gap-6 gap-2 md:mt-0 lg:w-3/4 lg:grid-cols-3 ">
           <div className="mb-8 lg:mb-0">
             <p className="mb-6 text-lg font-semibold text-gray-700 ">Articles</p>
             <ul className="flex flex-col space-y-4 text-[14px] font-medium text-gray-500">
@@ -40,7 +40,7 @@ function Footer() {
             <p className="mb-6 text-lg font-semibold text-gray-700 ">
               About Us
             </p>
-            <ul className="flex flex-col space-y-3 text-[14px] font-medium text-gray-500">
+            <ul className="flex flex-col  text-[14px] font-medium text-gray-500">
               <li>
                 We believe in fostering a non-judgmental and compassionate environment to encourage open discussions and provide valuable insights. Together, we can make a positive impact and work towards a healthier and drug-free future.
               </li>
