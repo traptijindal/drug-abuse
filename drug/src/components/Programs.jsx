@@ -26,8 +26,9 @@ const Programs = () => {
     return (
         <>
             <Header />
-            <h1 className="text-5xl font-bold flex justify-center items-center mt-10">OUR PROGRAMS</h1>
-            <div className="bg-slate-50 relative flex justify-center items-center m-20">
+            <h1 className="text-5xl font-bold flex justify-center items-center mt-10 text-center">OUR PROGRAMS</h1>
+            <h1 className="text-2xl font-semibold text-center mt-10 mb-5 sm:text-3xl md:text-4xl">"<span className="font-bold text-customblue">Empowering Voices:</span> Uniting Together in Rallies for Positive Change"</h1>
+            <div className="bg-slate-50 relative flex justify-center items-center">
                 <video className="w-[70%]" ref={videoRef1}>
                     <source src="\images\WhatsApp Video 2024-02-05 at 4.00.16 PM.mp4" />
                 </video>
@@ -54,7 +55,8 @@ const Programs = () => {
                     </div>
                 )}
             </div>
-            <div className="bg-slate-50 relative flex justify-center items-center m-20">
+            <h1 className="text-2xl font-semibold text-center mt-10 mb-5 sm:text-3xl md:text-4xl">"<span className="font-bold text-customblue">Unlocking Minds, Igniting Futures:</span> Join Our Educational Campaign for a Brighter Tomorrow"</h1>
+            <div className="bg-slate-50 relative flex justify-center items-center">
                 <video className="w-[70%]" ref={videoRef2}>
                     <source src="\images\WhatsApp Video 2024-02-05 at 2.12.38 PM.mp4" />
                 </video>
@@ -81,7 +83,8 @@ const Programs = () => {
                     </div>
                 )}
             </div>
-            <div className="bg-slate-50 relative flex justify-center items-center m-20">
+            <h1 className="text-2xl font-semibold text-center mt-10 mb-5 sm:text-3xl md:text-4xl">"<span className="font-bold text-customblue">Express Your Passion:</span> Creating a Vision for a Better Tomorrow"</h1>
+            <div className="bg-slate-50 relative flex justify-center items-center ">
                 <video className="w-[70%]" ref={videoRef3}>
                     <source src="\images\WhatsApp Video 2024-02-05 at 2.12.13 PM.mp4" />
                 </video>

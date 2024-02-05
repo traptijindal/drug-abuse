@@ -36,7 +36,7 @@ export default function Header() {
               <div className="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
                 <div className="px-5 pb-6 pt-5">
                   <div className="flex items-center justify-between">
-                    <img className='h-16 w-16 ' src="\images\WhatsApp Image 2024-02-04 at 12.06.58 PM.jpeg" alt="" />
+                    <img className='h-16' src="\images\WhatsApp Image 2024-02-04 at 12.06.58 PM.jpeg" alt="" />
                     <div className="-mr-2">
                       <button
                         type="button"
@@ -55,7 +55,7 @@ export default function Header() {
                       <Link to='/about'><li className="text-sm font-semibold text-gray-800 hover:text-gray-900">About Us</li></Link>
                       <Link to="/program"><li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Programs</li></Link>
                       <Link to="/contact"><li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Contact</li></Link>
-                      
+
                     </nav>
                   </div>
                 </div>
