@@ -21,7 +21,7 @@ export default function Header() {
             <ul className="inline-flex relative space-x-8">
 
               <Link to='/'><li className="text-base font-semibold text-gray-800 hover:text-gray-900">Home</li></Link>
-              <Link to='/councellor'><li className="text-base font-semibold hover:cursor-pointer text-gray-800 hover:text-gray-900">Centers</li></Link>
+              <Link to='/councellor'><li className="text-base font-semibold hover:cursor-pointer text-gray-800 hover:text-gray-900">Counsellor</li></Link>
               <Link to='/about'><li className="text-base font-semibold hover:cursor-pointer  text-gray-800 hover:text-gray-900">About Us</li></Link>
               <Link to='/program'><li className="text-base font-semibold hover:cursor-pointer  text-gray-800 hover:text-gray-900">Programs</li></Link>
               <Link to='/contact'><li className="text-base font-semibold hover:cursor-pointer  text-gray-800 hover:text-gray-900">Contact</li></Link>
@@ -53,7 +53,9 @@ export default function Header() {
                       <Link to="/"> <li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Home</li></Link>
                       <Link to='/councellor'><li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Counsellor</li></Link>
                       <Link to='/about'><li className="text-sm font-semibold text-gray-800 hover:text-gray-900">About Us</li></Link>
+                      <Link to="/program"><li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Programs</li></Link>
                       <Link to="/contact"><li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Contact</li></Link>
+                      
                     </nav>
                   </div>
                 </div>
