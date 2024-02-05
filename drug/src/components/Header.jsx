@@ -50,7 +50,7 @@ export default function Header() {
                   <div className="mt-6">
                     <nav className="grid gap-y-4 list-none">
                       <Link to="/"> <li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Home</li></Link>
-                      <Link to='/councellor'><li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Centers</li></Link>
+                      <Link to='/councellor'><li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Counsellor</li></Link>
                       <Link to='/about'><li className="text-sm font-semibold text-gray-800 hover:text-gray-900">About Us</li></Link>
                       <Link to="/contact"><li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Contact</li></Link>
                     </nav>

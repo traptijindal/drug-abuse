@@ -43,19 +43,19 @@ const Carousal = () => {
           modules={[Autoplay, Pagination, Navigation, Mousewheel]}
         >
           <SwiperSlide>
-            <img className=" w-full height" src="\images\anti-smoking-and-consumption-and-mental-illness-landscape-.jpg" alt="" />
+            <img className="sm:w-[80%] height w-full sm:mx-40" src="\images\anti-smoking-and-consumption-and-mental-illness-landscape-.jpg" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className=" w-full height" src="\images\WhatsApp Image 2024-02-03 at 8.43.59 PM.jpeg" alt="" />
+            <img className="sm:w-[80%] height w-full sm:mx-40" src="\images\WhatsApp Image 2024-02-03 at 8.43.59 PM.jpeg" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className=" w-full height" src="\images\c_3.jpg" alt="" />
+            <img className="sm:w-[80%] height w-full sm:mx-40" src="\images\c_3.jpg" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className=" w-full height" src="\images\anti-smoking-and-consumption-and-mental-illness-landscape-dark-theme.jpg" alt="" />
+            <img className="sm:w-[80%] height w-full sm:mx-40" src="\images\anti-smoking-and-consumption-and-mental-illness-landscape-dark-theme.jpg" alt="" />
           </SwiperSlide>
           <SwiperSlide>
-            <img className=" w-full height" src="\images\c_7.jpg" alt="" />
+            <img className="sm:w-[80%] height w-full sm:mx-40" src="\images\c_7.jpg" alt="" />
           </SwiperSlide>
         </Swiper>
       </div>
