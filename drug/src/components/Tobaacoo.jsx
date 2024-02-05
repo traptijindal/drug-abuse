@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
+import TobaccoVideo from './TobaccoVideo'
 
 function Tobaacoo() {
   return (
@@ -10,7 +11,7 @@ function Tobaacoo() {
         <h1 className='text-3xl sm:text-2xl md:text-4xl font-bold text-center'>TOBACCO CONTROL</h1>
 
         <div className='flex flex-col sm:flex-row items-center justify-center my-8'>
-          <img className='w-full sm:w-1/4 m-8' src="\images\tobacco6.jpg" alt="" />
+          <TobaccoVideo />
           <p className='m-8 text-lg sm:text-base leading-loose'>
             Tobacco control is a global public health initiative aimed at reducing the prevalence of tobacco use and its associated health risks. Tobacco use, particularly smoking, is a leading cause of preventable death and disease worldwide. Efforts in tobacco control focus on various strategies to decrease tobacco consumption, protect non-smokers from secondhand smoke, and address the broader public health implications. Tobacco control involves various strategies and policies aimed at reducing tobacco use and its associated health consequences.
           </p>

@@ -10,6 +10,7 @@ import Tobaacoo from './components/Tobaacoo';
 import MentalArticle from './components/MentalArticle';
 import TobaccoArticle from './components/TobaccoArticle';
 import DrugArticle from './components/DrugArticle';
+import Programs from './components/Programs';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/councellor" element={<Councellor />} />
         <Route path="/drug-abuse" element={<Drug />} />
         <Route path="/about" element={<About />} />
+        <Route path="/programs" element={<Programs />} />
         <Route path="/mental" element={<Mental />} />
         <Route path="/tobacco" element={<Tobaacoo />} />
         <Route path='/mental-article' element={<MentalArticle />}></Route>
