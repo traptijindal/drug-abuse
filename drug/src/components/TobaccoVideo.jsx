@@ -24,16 +24,16 @@ const TobaccoVideo = () => {
                 </video>
 
                 {!isPlaying && (
-                    <div className="absolute bottom-4 left-44 flex items-center justify-center text-white ">
-                        <button className="text-lg " onClick={handlePlay}>
+                    <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex items-center justify-center text-black">
+                        <button className="text-lg flex justify-center items-center" onClick={handlePlay}>
                             <FaPlay />
                         </button>
                     </div>
                 )}
 
                 {isPlaying && (
-                    <div className="absolute bottom-4 left-44 flex items-center justify-center text-white">
-                        <button className="text-lg" onClick={handlePause}>
+                    <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex items-center justify-center text-black">
+                        <button className="text-lg flex justify-center items-center" onClick={handlePause}>
                             <IoPause />
                         </button>
                     </div>
